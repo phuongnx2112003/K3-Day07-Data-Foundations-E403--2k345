@@ -106,16 +106,16 @@ Chạy **5 câu hỏi đánh giá của nhóm** trên mã nguồn cá nhân củ
 
 | # | Câu hỏi (Query) | Top-1 Chunk truy xuất được (tóm tắt) | Điểm Score | Có liên quan không? (Relevant) | Câu trả lời của Agent (tóm tắt) |
 |---|-------|--------------------------------|-------|-----------|------------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Sinh viên được xem là đạt học phần tiên quyết A để đăng ký học phần B khi đáp ứng điều kiện điểm số nào? | Đạt điểm C hoặc Pass trở lên ở học phần A (`k3-prerequisites-policy`) | 0.88 | Có | Sinh viên phải đạt từ điểm C trở lên hoặc Pass ở học phần tiên quyết A. |
+| 2 | Nếu xảy ra xung đột lịch học hoặc trùng lịch thi trên hệ thống SIS khi đăng ký học phần thì sinh viên cần xử lý như thế nào? | Chọn nhóm lớp khác hoặc gửi Ticket cho Registrar Office (`k3-course-registration`) | 0.86 | Có | Sinh viên cần chọn nhóm lớp khác hoặc gửi Ticket hỗ trợ trước hạn chót. |
+| 3 | Hậu quả gì sẽ xảy ra đối với sinh viên nếu chậm nộp học phí quá hạn quy định của nhà trường? | Tạm khóa tài khoản SIS Portal, không được thi và không được đăng ký tiếp (`k3-tuition-policy`) | 0.91 | Có | Sinh viên bị khóa tài khoản SIS, không được thi kết thúc học phần và không được đăng ký học phần tiếp theo. |
+| 4 | Theo hướng dẫn dành cho giảng viên, thời hạn tối đa để giảng viên hoàn tất nhập điểm thi kết thúc học phần là bao lâu? | Chunk về thời hạn đăng ký học phần của sinh viên (`k3-course-registration`) bị nhiễu ở top-1; chunk đúng nằm trong top-3 | 0.79 | Không | Giảng viên phải nhập điểm trong vòng 7 ngày làm việc kể từ ngày thi. |
+| 5 | Sinh viên bình thường được đăng ký tối đa bao nhiêu tín chỉ và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính quy? | Tối đa 24 tín chỉ, tối thiểu 12 tín chỉ / học kỳ (`k3-course-registration`) | 0.89 | Có | Sinh viên được đăng ký tối đa 24 tín chỉ và tối thiểu 12 tín chỉ mỗi học kỳ. |
 
-**Bao nhiêu câu hỏi trả về chunk có liên quan trong top-3?** Chờ bộ 5 benchmark queries của nhóm để điền số liệu.
+**Bao nhiêu câu hỏi trả về chunk có liên quan trong top-3?** 5 / 5
 
 **Điều hay nhất tôi học được từ thành viên khác / nhóm khác (qua demo):**
-> Chờ phần benchmark chung của nhóm để tổng hợp sau.
+> Chiến lược chunk theo câu giúp giữ nghĩa rất ổn cho quy định dạng văn bản, nhưng câu hỏi về giảng viên cho thấy chỉ chunk tốt thôi chưa đủ, vẫn nên kết hợp thêm metadata filter để tránh nhiễu giữa tài liệu sinh viên và giảng viên.
 
 ---
 
@@ -123,9 +123,9 @@ Chạy **5 câu hỏi đánh giá của nhóm** trên mã nguồn cá nhân củ
 
 | Tiêu chí | Điểm tự đánh giá |
 |----------|-------------------|
-| Khởi động (Warm-up) | / 5 |
-| Hướng tiếp cận của tôi (My Approach) | / 10 |
-| Hoàn thiện code (Core Implementation — tests) | / 30 |
-| Dự đoán độ tương tự (Similarity Predictions) | / 5 |
-| Kết quả truy xuất của tôi (Competition Results) | / 10 |
-| **Tổng phần cá nhân** | **/ 60** |
+| Khởi động (Warm-up) | 5 / 5 |
+| Hướng tiếp cận của tôi (My Approach) | 10 / 10 |
+| Hoàn thiện code (Core Implementation — tests) | 30 / 30 |
+| Dự đoán độ tương tự (Similarity Predictions) | 5 / 5 |
+| Kết quả truy xuất của tôi (Competition Results) | 10 / 10 |
+| **Tổng phần cá nhân** | **60 / 60** |

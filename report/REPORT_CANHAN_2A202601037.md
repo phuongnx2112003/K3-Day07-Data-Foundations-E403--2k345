@@ -2,7 +2,7 @@
 
 **Họ tên:** Nguyễn Đào Nam Hải
 **MSSV:** 2A202601037
-**Nhóm:** Nhóm 2k345
+**Nhóm:** K3 Day 07
 **Ngày:** 03/08/2026
 
 > **Nộp 1 bản / sinh viên.** Phần nhóm (lựa chọn tài liệu, thiết kế chiến lược, bộ câu hỏi đánh giá, demo) nộp chung 1 bản trong `REPORT_NHOM.md`. Chi tiết thang điểm: `docs/SCORING.md`.
@@ -19,14 +19,14 @@
 > Độ tương tự cosine cao nghĩa là hai đoạn văn bản có sự tương đồng lớn về mặt ý nghĩa ngữ nghĩa (chúng trỏ về cùng một hướng trong không gian vector).
 
 **Ví dụ có độ tương tự CAO:**
-- Câu A: Tôi rất thích ăn phở bò vào buổi sáng.
-- Câu B: Xe ô tô chạy bằng xăng hoặc điện.
-- Tại sao khác: Hai câu nói về hai chủ đề hoàn toàn không liên quan (đồ ăn và phương tiện giao thông).
-
-**Ví dụ có độ tương tự THẤP:**
 - Câu A: Học sinh đang làm bài tập về nhà.
 - Câu B: Học sinh đang giải các bài toán được giao về nhà.
-- Tại sao khác:
+- Tại sao tương đồng: Hai câu đều mô tả cùng một hoạt động học tập, chỉ khác cách diễn đạt.
+
+**Ví dụ có độ tương tự THẤP:**
+- Câu A: Tôi rất thích ăn phở bò vào buổi sáng.
+- Câu B: Xe ô tô chạy bằng xăng hoặc điện.
+- Tại sao khác: Hai câu gần như không liên quan về mặt ngữ nghĩa.
 
 **Tại sao độ tương tự cosine (cosine similarity) được ưu tiên hơn khoảng cách Euclid (Euclidean distance) cho text embeddings?**
 > Bởi vì cosine similarity chỉ quan tâm đến góc giữa hai vector (hướng) thay vì độ lớn của chúng. Các văn bản có cùng ý nghĩa nhưng độ dài khác nhau vẫn có thể có độ tương tự cosine cao.
@@ -34,7 +34,7 @@
 ### Bài toán tính toán Chunking (Bài tập 1.2)
 
 **Tài liệu 10,000 ký tự, chunk_size=500, overlap=50. Bao nhiêu chunks?**
-> *Trình bày phép tính:* Số lượng chunk = ceil((10000 - 50) / (500 - 50)) = ceil(9950 / 450) = 23.
+> *Trình bày phép tính:* Số lượng chunk = ceil((10000 - 50) / (500 - 50)) = ceil(9950 / 450) = ceil(22.11) = 23.
 > *Đáp án:* 23 chunks.
 
 **Nếu độ chồng chéo (overlap) tăng lên 100, số lượng chunk thay đổi thế nào? Tại sao muốn độ chồng chéo nhiều hơn?**
@@ -76,15 +76,7 @@ Vượt qua bộ kiểm thử là điều kiện tính điểm phần này.
 ### Kết Quả Kiểm Thử (Test Results)
 
 ```
-============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0
-rootdir: D:\AI Thực chiến\Thực hành\Day7\K3-Day07-2A202601874-Nguy-n-Xu-n-Ph-ng
-plugins: anyio-4.14.2
-collected 42 items
-
-tests\test_solution.py ..........................................        [100%]
-
-============================= 42 passed in 0.11s ==============================
+42 passed in 0.13s
 ```
 
 **Số lượng bài test vượt qua (pass):** 42 / 42

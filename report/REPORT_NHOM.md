@@ -1,6 +1,7 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
 **Nhóm:** K3 Day 07
+
 **Thành viên:**
 - Nguyễn Xuân Phượng - Nhóm trưởng - `2A202601874`
 - Lê Nguyễn Minh Đức - Thành viên - `2A202601013`
@@ -103,4 +104,3 @@ Kết luận chính:
 - Bộ benchmark 5 câu giúp so sánh chiến lược khách quan hơn.
 
 Chi tiết xem [Buoc8_PhanTich_SoSanh.md](/home/x-phuong/Code/VinUni/K3-Day07-Data-Foundations/report/Buoc8_PhanTich_SoSanh.md).
-

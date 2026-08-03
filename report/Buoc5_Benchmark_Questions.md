@@ -1,7 +1,7 @@
 # Kết Quả Bước 5 - Kiểm Tra Corpus & Chốt 5 Câu Hỏi Đánh Giá (Benchmark Questions)
 
 **Ngày thực hiện:** 03/08/2026  
-**Đơn vị/Nhóm:** K3 Day 07  
+**Đơn vị/Nhóm:** 2K345  
 **Thành viên phụ trách:** Nguyễn Đào Nam Hải và Nhóm trưởng Nguyễn Xuân Phượng
 
 ---
@@ -36,4 +36,3 @@ Bộ 5 câu hỏi được thiết kế theo đúng tiêu chuẩn đa dạng, ba
   - **2 điểm:** Top-3 có chứa chunk liên quan VÀ Agent trả lời chính xác.
   - **1 điểm:** Có chunk liên quan nhưng nằm ngoài Top-1 hoặc Agent trả lời chưa đầy đủ.
   - **0 điểm:** Không tìm thấy chunk liên quan trong Top-3.
-

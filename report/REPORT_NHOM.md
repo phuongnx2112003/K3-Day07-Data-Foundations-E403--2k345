@@ -1,6 +1,6 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
-**Nhóm:** K3 Day 07
+**Nhóm:** 2K345
 
 **Thành viên:**
 - Nguyễn Xuân Phượng - Nhóm trưởng - `2A202601874`

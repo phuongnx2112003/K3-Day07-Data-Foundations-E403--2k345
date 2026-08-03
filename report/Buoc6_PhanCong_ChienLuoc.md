@@ -1,7 +1,7 @@
 # Kết Quả Bước 6 — Phân Công & Thiết Kế Chiến Lược Chunking Cho Từng Thành Viên
 
 **Ngày thực hiện:** 03/08/2026  
-**Nhóm:** K3 Day 07  
+**Nhóm:** 2K345  
 
 ---
 

@@ -1,7 +1,7 @@
 # Kết Quả Bước 8 — Phân Tích So Sánh, Phân Tích Lỗi & Bài Học Nhóm
 
 **Ngày thực hiện:** 03/08/2026  
-**Nhóm:** K3 Day 07  
+**Nhóm:** 2K345  
 
 ---
 

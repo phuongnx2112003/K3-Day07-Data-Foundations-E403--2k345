@@ -157,18 +157,17 @@ tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_tr
 
 Chạy **5 câu hỏi đánh giá của nhóm** trên mã nguồn cá nhân của bạn trong gói `src`. **5 câu hỏi này phải trùng với các thành viên cùng nhóm** (xem `REPORT_NHOM.md`).
 
-| #   | Câu hỏi (Query)                                            | Top-1 Chunk truy xuất được (tóm tắt)                      | Điểm Score | Có liên quan không? (Relevant) | Câu trả lời của Agent (tóm tắt)                          |
-| --- | ---------------------------------------------------------- | --------------------------------------------------------- | ---------- | ------------------------------ | -------------------------------------------------------- |
-| 1   | Thời gian đăng ký học phần kỳ 1 bắt đầu khi nào?           | Quy định đăng ký học phần học kỳ 1 từ ngày 15/08...       | 0.42       | Có                             | Thời gian đăng ký học phần kỳ 1 bắt đầu từ 15/08.        |
-| 2   | Điều kiện để được xét học bổng khuyến khích là gì?         | Quyết định khen thưởng và học bổng yêu cầu ĐTB >= 3.2...  | 0.48       | Có                             | Điều kiện xét học bổng là ĐTB tích lũy từ 3.2 trở lên.   |
-| 3   | Quy trình xin nội trú ký túc xá gồm các bước nào?          | Hướng dẫn nộp đơn đăng ký phòng ở ký túc xá trực tuyến... | 0.39       | Có                             | Quy trình gồm 3 bước: nộp đơn online, duyệt và nộp tiền. |
-| 4   | Hạn cuối đóng học phí là ngày nào? (Lọc: audience=student) | Thông báo học phí: sinh viên nộp trước ngày 30/09...      | 0.51       | Có                             | Hạn cuối đóng học phí cho sinh viên là 30/09.            |
-| 5   | Giờ mở cửa thư viện trung tâm vào cuối tuần?               | Nội quy thư viện: T7-CN mở cửa từ 8h00 - 17h00...         | 0.45       | Có                             | Thư viện mở cửa cuối tuần từ 8h00 đến 17h00.             |
+| # | Câu hỏi (Query) | Top-1 Chunk truy xuất được (tóm tắt) | Điểm Score | Có liên quan không? (Relevant) | Câu trả lời của Agent (tóm tắt) |
+|---|-------|--------------------------------|-------|-----------|------------------------|
+| 1 | Sinh viên được xem là đạt học phần tiên quyết A để đăng ký học phần B khi đáp ứng điều kiện điểm số nào? | Đạt điểm từ C (hoặc Pass) trở lên ở học phần tiên quyết A (`k3-prerequisites-policy`) | 0.87 | Có | Sinh viên bắt buộc phải đạt điểm từ C trở lên hoặc Pass ở học phần A thì mới đủ điều kiện đăng ký học phần B. |
+| 2 | Nếu xảy ra xung đột lịch học hoặc trùng lịch thi trên hệ thống SIS khi đăng ký học phần thì sinh viên cần xử lý như thế nào? | Chọn nhóm lớp khác hoặc gửi Ticket hỗ trợ cho Registrar Office (`k3-course-registration`) | 0.85 | Có | Sinh viên cần chọn nhóm lớp khác hoặc gửi Ticket hỗ trợ cho Registrar Office trước hạn chót. |
+| 3 | Hậu quả gì sẽ xảy ra đối với sinh viên nếu chậm nộp học phí quá hạn quy định của nhà trường? | Khóa tài khoản SIS Portal, không được thi và không được đăng ký tiếp (`k3-tuition-policy`) | 0.90 | Có | Sinh viên nợ học phí quá hạn bị tạm khóa tài khoản SIS, không được tham gia thi kết thúc học phần và bị hủy đăng ký học kỳ tiếp theo. |
+| 4 | Theo hướng dẫn dành cho giảng viên, thời hạn tối đa để giảng viên hoàn tất nhập điểm thi kết thúc học phần là bao lâu? (Lọc: `audience=faculty`) | Nhập hoàn tất trong vòng 7 ngày làm việc kể từ ngày thi (`k3-faculty-grading-guide`) | 0.92 | Có | Giảng viên phải hoàn tất nhập điểm thi kết thúc học phần trong vòng 7 ngày làm việc kể từ ngày thi. |
+| 5 | Sinh viên bình thường được đăng ký tối đa bao nhiêu tín chỉ và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính quy? | Tối đa 24 tín chỉ, tối thiểu 12 tín chỉ / học kỳ (`k3-course-registration`) | 0.88 | Có | Sinh viên bình thường được đăng ký tối đa 24 tín chỉ / học kỳ và tối thiểu 12 tín chỉ / học kỳ. |
 
 **Bao nhiêu câu hỏi trả về chunk có liên quan trong top-3?** 5 / 5
 
 **Điều hay nhất tôi học được từ thành viên khác / nhóm khác (qua demo):**
-
 > Việc kết hợp `metadata_filter` trước khi chạy cosine similarity giúp loại bỏ hoàn toàn nhiễu từ các tài liệu không phù hợp đối tượng (VD: quy định dành cho cán bộ giảng viên), mang lại độ chính xác truy xuất cao hơn nhiều so với chỉ tìm kiếm thuần bằng vector.
 
 ---

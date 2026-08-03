@@ -1,18 +1,18 @@
 ---
-doc_id: k3-course-registration
-title: Đăng ký học phần
-audience: student            # student | faculty | staff | all
+doc_id: vinuni-course-registration
+title: Hướng dẫn đăng ký học phần
+audience: student
 department: academic-affairs
 language: vi
-source_url: https://example.edu/hoc-vu/dang-ky-hoc-phan
-retrieved_at: 2026-08-02
-document_version: "2026.1"
+source_url: https://registrar.vinuni.edu.vn/academics/class-schedule-course-registration/
+retrieved_at: 2026-08-03
+document_version: "2026-08-03"
 ---
 
-> Khối metadata phía trên là **template mẫu** cho K3 (bắt buộc: `audience` + `source_url` + `retrieved_at` + `document_version`, cùng ít nhất một trường hữu ích khác như `department`). Thay bằng nguồn công khai thật của nhóm trước khi dùng làm benchmark.
+# Hướng dẫn đăng ký học phần
 
-# Đăng ký học phần (dữ liệu khởi động)
+Sinh viên nên bắt đầu bằng việc xem lộ trình học và khung chương trình của ngành để xác định các môn cần đăng ký. Trước khi mở đăng ký, sinh viên nên lập danh sách học phần dự kiến để đối chiếu với thời khóa biểu và các môn tiên quyết.
 
-Sinh viên đăng ký học phần trong cổng học vụ theo lịch của từng học kỳ. Một học phần có thể yêu cầu học phần tiên quyết; sinh viên cần kiểm tra điều kiện trước khi xác nhận đăng ký.
+Quy trình đăng ký được thực hiện trên SIS: đăng nhập bằng tài khoản VinUni, vào mục đăng ký học phần, tìm môn theo mã hoặc tên môn, thêm môn vào giỏ và xác nhận đăng ký. Sau khi hoàn tất, sinh viên cần kiểm tra lại trạng thái đăng ký trong thời khóa biểu cá nhân.
 
-Khi gặp lỗi trùng lịch, sinh viên điều chỉnh lớp học phần trước thời hạn điều chỉnh được công bố. Mọi yêu cầu ngoại lệ phải được gửi qua kênh hỗ trợ học vụ chính thức.
+Nếu một môn chưa hiển thị, có xung đột lịch, hoặc báo lỗi tiên quyết, sinh viên cần kiểm tra điều kiện môn học và liên hệ Văn phòng Đăng ký nếu thấy mình đủ điều kiện nhưng hệ thống vẫn chặn. Một số trường hợp đặc biệt như học lại, học vượt hoặc rút môn phải gửi yêu cầu riêng theo hướng dẫn của Registrar.

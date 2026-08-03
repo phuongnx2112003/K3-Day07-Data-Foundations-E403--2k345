@@ -1,18 +1,16 @@
 ---
-doc_id: k3-library-services
-title: Dịch vụ thư viện
-audience: all               # student | faculty | staff | all
+doc_id: vinuni-library-borrowing-undergraduate
+title: Quyền mượn thư viện cho sinh viên bậc đại học
+audience: student
 department: library
 language: vi
-source_url: https://example.edu/thu-vien/dich-vu
-retrieved_at: 2026-08-02
-document_version: "2026.1"
+source_url: https://library.vinuni.edu.vn/services/borrow-and-request/undergraduate-and-staff/
+retrieved_at: 2026-08-03
+document_version: "2026-08-03"
 ---
 
-> Khối metadata phía trên là **template mẫu** cho K3 — thay `source_url`/`retrieved_at`/`document_version` bằng nguồn công khai thật trước khi dùng làm benchmark.
+# Quyền mượn thư viện cho sinh viên bậc đại học
 
-# Dịch vụ thư viện (dữ liệu khởi động)
+Thẻ sinh viên VinUni được dùng làm thẻ thư viện để mượn tài liệu hoặc thiết bị. Sinh viên bậc đại học có thể mượn tối đa 3 tài liệu, mỗi tài liệu trong 2 tuần; sách có thể được gia hạn một lần thêm 1 tuần nếu chưa quá hạn và chưa có người khác đặt giữ.
 
-Thư viện cung cấp mượn tài liệu và không gian học tập cho sinh viên, giảng viên và nhân viên. Người dùng cần mang thẻ định danh hợp lệ khi sử dụng dịch vụ mượn.
-
-Nhóm cần bổ sung quy định thời hạn mượn, gia hạn và xử lý quá hạn từ nguồn chính thức trước khi dùng làm benchmark.
+Sinh viên có thể yêu cầu sách qua catalogue thư viện trực tuyến; tài liệu yêu cầu thường được giữ trong 2 ngày để nhận. Thiết bị có thời hạn mượn 1 ngày làm việc và phải trả trước 15 phút so với giờ đóng cửa của thư viện. Nếu thiết bị quá hạn hơn 5 ngày, thư viện xem như bị mất và người mượn phải thanh toán chi phí thay thế.

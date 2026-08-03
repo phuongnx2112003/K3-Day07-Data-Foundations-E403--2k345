@@ -1,3 +1,6 @@
 doc_id,file_path,title,source_url,retrieved_at,document_version,license_or_permission
-k3-course-registration,data/k3_university/course-registration.md,Đăng ký học phần,https://example.edu/hoc-vu/dang-ky-hoc-phan,2026-08-02,2026.1,example-template-replace-me
-k3-library-services,data/k3_university/library-services.md,Dịch vụ thư viện,https://example.edu/thu-vien/dich-vu,2026-08-02,2026.1,example-template-replace-me
+vinuni-course-registration,data/k3_university/course-registration.md,Hướng dẫn đăng ký học phần,https://registrar.vinuni.edu.vn/academics/class-schedule-course-registration/,2026-08-03,2026-08-03,public-page
+vinuni-academic-regulations-add-drop,data/k3_university/academic-regulations.md,Quy định đăng ký, thêm, bỏ và rút học phần,https://policy.vinuni.edu.vn/all-policies/academic-regulations-for-full-time-undergraduate-programs/,2026-08-03,2026-08-03,public-page
+vinuni-academic-scheduling,data/k3_university/academic-scheduling.md,Quy trình lập lịch học và mở đăng ký,https://policy.vinuni.edu.vn/all-policies/university-academic-scheduling-procedures/,2026-08-03,2021-11-22,public-page
+vinuni-library-borrowing-undergraduate,data/k3_university/library-services.md,Quyền mượn thư viện cho sinh viên bậc đại học,https://library.vinuni.edu.vn/services/borrow-and-request/undergraduate-and-staff/,2026-08-03,2026-08-03,public-page
+vinuni-library-access-policy,data/k3_university/library-access-policy.md,Quy định truy cập và sử dụng thư viện,https://policy.vinuni.edu.vn/all-policies/library-policies-for-users/,2026-08-03,2026-08-03,public-page

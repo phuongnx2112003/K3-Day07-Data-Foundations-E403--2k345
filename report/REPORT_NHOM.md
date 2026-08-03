@@ -58,6 +58,9 @@ Metadata bắt buộc đã dùng:
 
 `sources.csv` khớp 1-1 với các file tài liệu.
 
+Chi tiết Bước 3 xem [Buoc3_Metadata_Schema.md](./Buoc3_Metadata_Schema.md).
+Chi tiết Bước 4 xem [Buoc4_ChuanBi_ChienLuoc_TruyXuat.md](./Buoc4_ChuanBi_ChienLuoc_TruyXuat.md).
+
 ---
 
 ## 3. Bước 5 - Benchmark questions
@@ -69,7 +72,7 @@ Nhóm thống nhất 5 câu hỏi benchmark:
 - thời hạn nhập điểm cho giảng viên
 - ràng buộc tín chỉ học kỳ
 
-Chi tiết xem [Buoc5_Benchmark_Questions.md](/home/x-phuong/Code/VinUni/K3-Day07-Data-Foundations/report/Buoc5_Benchmark_Questions.md).
+Chi tiết xem [Buoc5_Benchmark_Questions.md](./Buoc5_Benchmark_Questions.md).
 
 ---
 
@@ -79,7 +82,7 @@ Chi tiết xem [Buoc5_Benchmark_Questions.md](/home/x-phuong/Code/VinUni/K3-Day0
 - Lê Nguyễn Minh Đức: `RecursiveChunker`
 - Nguyễn Đào Nam Hải: `CustomSectionHeaderChunker`
 
-Chi tiết xem [Buoc6_PhanCong_ChienLuoc.md](/home/x-phuong/Code/VinUni/K3-Day07-Data-Foundations/report/Buoc6_PhanCong_ChienLuoc.md).
+Chi tiết xem [Buoc6_PhanCong_ChienLuoc.md](./Buoc6_PhanCong_ChienLuoc.md).
 
 ---
 
@@ -92,7 +95,7 @@ Kết quả tổng hợp:
 
 Metadata filter hữu ích nhất ở câu hỏi về giảng viên nhập điểm.
 
-Chi tiết xem [Buoc7_KiemThu_Benchmark.md](/home/x-phuong/Code/VinUni/K3-Day07-Data-Foundations/report/Buoc7_KiemThu_Benchmark.md).
+Chi tiết xem [Buoc7_KiemThu_Benchmark.md](./Buoc7_KiemThu_Benchmark.md).
 
 ---
 
@@ -103,4 +106,4 @@ Kết luận chính:
 - Metadata filtering giúp giảm nhiễu khi corpus có nhiều đối tượng khác nhau.
 - Bộ benchmark 5 câu giúp so sánh chiến lược khách quan hơn.
 
-Chi tiết xem [Buoc8_PhanTich_SoSanh.md](/home/x-phuong/Code/VinUni/K3-Day07-Data-Foundations/report/Buoc8_PhanTich_SoSanh.md).
+Chi tiết xem [Buoc8_PhanTich_SoSanh.md](./Buoc8_PhanTich_SoSanh.md).
